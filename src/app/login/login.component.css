@@ -23,5 +23,9 @@
     min-height: 80vh;
     }
 
+    .mat-card {
+      width: 400px;
+    }
+
 }
 
