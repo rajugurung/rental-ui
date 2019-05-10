@@ -1,0 +1,27 @@
+.full-width {
+  width: 100%;
+}
+.mat-raised-button{
+  width: 100%;
+}
+@media screen and (min-width: 570px){
+
+  .login-page {
+      /* -moz-transition: height 0.1s; */
+      /* -o-transition: height 0.1s;
+      -webkit-transition: height 0.1s; */
+      transition: height 0.1s;
+  }
+
+
+  .center-wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+    }
+
+}
+
