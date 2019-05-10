@@ -23,6 +23,6 @@ export class LoginComponent {
       userName: this.loginForm.controls['userName'].value,
       password: this.loginForm.controls['password'].value
     }
-    console.log(loginCred);
+    console.log();
   }
 }
