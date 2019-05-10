@@ -7,7 +7,7 @@ import { FormBuilder, Validators } from '@angular/forms';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-  addressForm = this.fb.group({
+  loginForm = this.fb.group({
     userName: [null, Validators.required],
     password: [null, Validators.required],
   });
@@ -19,6 +19,10 @@ export class LoginComponent {
   constructor(private fb: FormBuilder) {}
 
   onSubmit() {
-    alert('Thanks!');
+    const loginCred = {
+      userName: this.loginForm.controls['userName'].value,
+      password: this.loginForm.controls['password'].value
+    }
+    console.log(loginCred);
   }
 }
