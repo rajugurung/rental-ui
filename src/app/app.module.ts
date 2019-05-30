@@ -11,12 +11,14 @@ import { NavComponent } from './nav/nav.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MytableComponent } from './mytable/mytable.component';
 import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     MytableComponent,
     LoginComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
