@@ -12,9 +12,6 @@ export class LoginComponent {
     password: [null, Validators.required],
   });
 
-  hasUnitNumber = false;
-
-
 
   constructor(private fb: FormBuilder) {}
 
@@ -23,6 +20,6 @@ export class LoginComponent {
       userName: this.loginForm.controls['userName'].value,
       password: this.loginForm.controls['password'].value
     }
-    console.log();
+    console.log(loginCred);
   }
 }
